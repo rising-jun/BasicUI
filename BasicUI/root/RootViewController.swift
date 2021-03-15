@@ -12,6 +12,7 @@ import RxSwift
 class RootViewController: UITabBarController {
 
     let firstVC = FirstViewController()
+    let secondVC = SecondPagerViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,8 @@ class RootViewController: UITabBarController {
         addChild(firstVC)
         firstVC.tabBarItem = UITabBarItem(title: "홈", image: UIImage(), tag: 0)
         
+        addChild(secondVC)
+        secondVC.tabBarItem = UITabBarItem(title: "뉴스화면", image: UIImage(), tag: 1)
         
     }
 
