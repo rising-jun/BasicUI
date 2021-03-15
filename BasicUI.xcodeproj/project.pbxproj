@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		7294DAC325FB43DA00D696DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7294DAC225FB43DA00D696DA /* Assets.xcassets */; };
 		7294DAC625FB43DA00D696DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7294DAC425FB43DA00D696DA /* LaunchScreen.storyboard */; };
 		7294DAD325FB4A8400D696DA /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7294DAD225FB4A8400D696DA /* Base.swift */; };
+		72D202E225FF280F005FC85D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D202E125FF280F005FC85D /* RootView.swift */; };
+		72D202E625FF299E005FC85D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D202E525FF299E005FC85D /* FirstViewController.swift */; };
 		F41523284D64D140AB17A9B2 /* Pods_BasicUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE1BAE77425E0542EDB7474 /* Pods_BasicUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		7294DAC525FB43DA00D696DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7294DAC725FB43DA00D696DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7294DAD225FB4A8400D696DA /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		72D202E125FF280F005FC85D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		72D202E525FF299E005FC85D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		8FFF1826416D59718FB21A82 /* Pods-BasicUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicUI.debug.xcconfig"; path = "Target Support Files/Pods-BasicUI/Pods-BasicUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,9 +65,10 @@
 		7294DAB825FB43DA00D696DA /* BasicUI */ = {
 			isa = PBXGroup;
 			children = (
-				7294DAD125FB4A6E00D696DA /* BaseSet */,
+				72D202E425FF298A005FC85D /* firstscreen */,
+				72D202DE25FF27C7005FC85D /* root */,
+				7294DAD125FB4A6E00D696DA /* baseset */,
 				7294DAB925FB43DA00D696DA /* AppDelegate.swift */,
-				7294DABD25FB43DA00D696DA /* RootViewController.swift */,
 				7294DAC225FB43DA00D696DA /* Assets.xcassets */,
 				7294DAC425FB43DA00D696DA /* LaunchScreen.storyboard */,
 				7294DAC725FB43DA00D696DA /* Info.plist */,
@@ -71,12 +76,29 @@
 			path = BasicUI;
 			sourceTree = "<group>";
 		};
-		7294DAD125FB4A6E00D696DA /* BaseSet */ = {
+		7294DAD125FB4A6E00D696DA /* baseset */ = {
 			isa = PBXGroup;
 			children = (
 				7294DAD225FB4A8400D696DA /* Base.swift */,
 			);
-			path = BaseSet;
+			path = baseset;
+			sourceTree = "<group>";
+		};
+		72D202DE25FF27C7005FC85D /* root */ = {
+			isa = PBXGroup;
+			children = (
+				7294DABD25FB43DA00D696DA /* RootViewController.swift */,
+				72D202E125FF280F005FC85D /* RootView.swift */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		72D202E425FF298A005FC85D /* firstscreen */ = {
+			isa = PBXGroup;
+			children = (
+				72D202E525FF299E005FC85D /* FirstViewController.swift */,
+			);
+			path = firstscreen;
 			sourceTree = "<group>";
 		};
 		C289960475E952184E10BB58 /* Frameworks */ = {
@@ -93,7 +115,6 @@
 				8FFF1826416D59718FB21A82 /* Pods-BasicUI.debug.xcconfig */,
 				6931A7BADA281FD8DE445764 /* Pods-BasicUI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -210,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D202E625FF299E005FC85D /* FirstViewController.swift in Sources */,
+				72D202E225FF280F005FC85D /* RootView.swift in Sources */,
 				7294DABE25FB43DA00D696DA /* RootViewController.swift in Sources */,
 				7294DAD325FB4A8400D696DA /* Base.swift in Sources */,
 				7294DABA25FB43DA00D696DA /* AppDelegate.swift in Sources */,
