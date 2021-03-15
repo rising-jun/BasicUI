@@ -16,7 +16,7 @@ class SecondViewPager: BaseView{
     
     override func setup() {
         super.setup()
-        backgroundColor = .yellow
+        backgroundColor = .white
         
         let pagerLayout = UICollectionViewFlowLayout()
         pagerLayout.scrollDirection = .horizontal
@@ -29,10 +29,11 @@ class SecondViewPager: BaseView{
         
         menuTabBar.bounces = false
         menuTabBar.showsHorizontalScrollIndicator = false
+        menuTabBar.backgroundColor = .white
         menuTabBar.snp.makeConstraints { (make) in
             make.width.equalTo(self)
             make.height.equalTo(50)
-            make.top.equalTo(self.snp.top)
+            make.top.equalTo(self.snp.top).offset(44)
         }
         
         highlightView.backgroundColor = .black
