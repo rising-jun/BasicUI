@@ -14,6 +14,7 @@
 		7294DAD325FB4A8400D696DA /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7294DAD225FB4A8400D696DA /* Base.swift */; };
 		72D202E225FF280F005FC85D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D202E125FF280F005FC85D /* RootView.swift */; };
 		72D202E625FF299E005FC85D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D202E525FF299E005FC85D /* FirstViewController.swift */; };
+		72D202EA25FF2BB8005FC85D /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D202E925FF2BB8005FC85D /* FirstView.swift */; };
 		F41523284D64D140AB17A9B2 /* Pods_BasicUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE1BAE77425E0542EDB7474 /* Pods_BasicUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		7294DAD225FB4A8400D696DA /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		72D202E125FF280F005FC85D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		72D202E525FF299E005FC85D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		72D202E925FF2BB8005FC85D /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		8FFF1826416D59718FB21A82 /* Pods-BasicUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicUI.debug.xcconfig"; path = "Target Support Files/Pods-BasicUI/Pods-BasicUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				72D202E525FF299E005FC85D /* FirstViewController.swift */,
+				72D202E925FF2BB8005FC85D /* FirstView.swift */,
 			);
 			path = firstscreen;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D202E625FF299E005FC85D /* FirstViewController.swift in Sources */,
+				72D202EA25FF2BB8005FC85D /* FirstView.swift in Sources */,
 				72D202E225FF280F005FC85D /* RootView.swift in Sources */,
 				7294DABE25FB43DA00D696DA /* RootViewController.swift in Sources */,
 				7294DAD325FB4A8400D696DA /* Base.swift in Sources */,
