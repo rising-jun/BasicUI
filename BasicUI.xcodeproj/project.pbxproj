@@ -17,6 +17,8 @@
 		72D202EA25FF2BB8005FC85D /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D202E925FF2BB8005FC85D /* FirstView.swift */; };
 		72D202FF25FF2FCA005FC85D /* SecondPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D202FE25FF2FCA005FC85D /* SecondPagerViewController.swift */; };
 		72D2030325FF3009005FC85D /* SecondViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D2030225FF3009005FC85D /* SecondViewPager.swift */; };
+		72D2030825FF3364005FC85D /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D2030725FF3364005FC85D /* MenuCell.swift */; };
+		72D2030C25FF3438005FC85D /* PagerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D2030B25FF3438005FC85D /* PagerCell.swift */; };
 		F41523284D64D140AB17A9B2 /* Pods_BasicUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE1BAE77425E0542EDB7474 /* Pods_BasicUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		72D202E925FF2BB8005FC85D /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		72D202FE25FF2FCA005FC85D /* SecondPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPagerViewController.swift; sourceTree = "<group>"; };
 		72D2030225FF3009005FC85D /* SecondViewPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewPager.swift; sourceTree = "<group>"; };
+		72D2030725FF3364005FC85D /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		72D2030B25FF3438005FC85D /* PagerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerCell.swift; sourceTree = "<group>"; };
 		8FFF1826416D59718FB21A82 /* Pods-BasicUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicUI.debug.xcconfig"; path = "Target Support Files/Pods-BasicUI/Pods-BasicUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +75,7 @@
 		7294DAB825FB43DA00D696DA /* BasicUI */ = {
 			isa = PBXGroup;
 			children = (
+				72D2030525FF32FF005FC85D /* factor */,
 				72D202FD25FF2FB7005FC85D /* secondscreen */,
 				72D202E425FF298A005FC85D /* firstscreen */,
 				72D202DE25FF27C7005FC85D /* root */,
@@ -116,6 +121,23 @@
 				72D2030225FF3009005FC85D /* SecondViewPager.swift */,
 			);
 			path = secondscreen;
+			sourceTree = "<group>";
+		};
+		72D2030525FF32FF005FC85D /* factor */ = {
+			isa = PBXGroup;
+			children = (
+				72D2030625FF3320005FC85D /* cell */,
+			);
+			path = factor;
+			sourceTree = "<group>";
+		};
+		72D2030625FF3320005FC85D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				72D2030725FF3364005FC85D /* MenuCell.swift */,
+				72D2030B25FF3438005FC85D /* PagerCell.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		C289960475E952184E10BB58 /* Frameworks */ = {
@@ -249,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D202E625FF299E005FC85D /* FirstViewController.swift in Sources */,
+				72D2030C25FF3438005FC85D /* PagerCell.swift in Sources */,
 				72D202EA25FF2BB8005FC85D /* FirstView.swift in Sources */,
+				72D2030825FF3364005FC85D /* MenuCell.swift in Sources */,
 				72D202E225FF280F005FC85D /* RootView.swift in Sources */,
 				7294DABE25FB43DA00D696DA /* RootViewController.swift in Sources */,
 				72D202FF25FF2FCA005FC85D /* SecondPagerViewController.swift in Sources */,
