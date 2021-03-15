@@ -11,9 +11,11 @@ import RxSwift
 
 class FirstViewController: BaseViewController {
 
+    lazy var firstView = FirstView(frame: view.frame)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        view = firstView
         // Do any additional setup after loading the view.
         
         
